@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 function translateHexToRGB(hex: string) {
-  if (!/^#[0-9A-Fa-f]+$/g.test(hex)) {
+  if (!/^#[0-9A-Fa-f]{6}$/g.test(hex)) {
     return "Ошибка!";
   }
 
@@ -30,9 +30,17 @@ export default function Home() {
   };
 
   return (
-    <div style={{ backgroundColor: `${color}` }}>
-      <input type="text" onInput={(e) => hexHandler(e)} />
-      <div>{color === "rgba(255, 69, 0)" ? "Ошибка!" : color}</div>
+    <div className="container" style={{ backgroundColor: `${color}` }}>
+      <div className="form">
+        <input
+          className="input hex"
+          type="text"
+          onInput={(e) => hexHandler(e)}
+        />
+        <div className="input rgba">
+          <span>{color === "rgba(255, 69, 0)" ? "Ошибка!" : color}</span>
+        </div>
+      </div>
     </div>
   );
 }
