@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{386:function(e,t,r){Promise.resolve().then(r.bind(r,919))},919:function(e,t,r){"use strict";r.r(t),r.d(t,{default:function(){return a}});var n=r(97),s=r(1595);function a(){let[e,t]=(0,s.useState)(""),r=e=>{if(e.preventDefault(),e.target.value.length>=7){let r=function(e){if(!/^#[0-9A-Fa-f]{6}$/g.test(e))return"Ошибка!";e=e.replace("#","");let t=parseInt(e.substring(0,2),16),r=parseInt(e.substring(2,4),16),n=parseInt(e.substring(4,6),16);return"rgb(".concat(t,", ").concat(r,", ").concat(n,")")}(e.target.value);"Ошибка!"===r?t("rgba(255, 69, 0)"):t(r)}else t("")};return(0,n.jsx)("div",{className:"container",style:{backgroundColor:"".concat(e)},children:(0,n.jsxs)("div",{className:"form",children:[(0,n.jsx)("input",{className:"input hex",type:"text",onInput:e=>r(e)}),(0,n.jsx)("div",{className:"input rgba",children:(0,n.jsx)("span",{children:"rgba(255, 69, 0)"===e?"Ошибка!":e})})]})})}},2665:function(e,t,r){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var n=r(1595),s=Symbol.for("react.element"),a=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),o=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,u={key:!0,ref:!0,__self:!0,__source:!0};function c(e,t,r){var n,c={},i=null,l=null;for(n in void 0!==r&&(i=""+r),void 0!==t.key&&(i=""+t.key),void 0!==t.ref&&(l=t.ref),t)a.call(t,n)&&!u.hasOwnProperty(n)&&(c[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===c[n]&&(c[n]=t[n]);return{$$typeof:s,type:e,key:i,ref:l,props:c,_owner:o.current}}t.jsx=c,t.jsxs=c},97:function(e,t,r){"use strict";e.exports=r(2665)}},function(e){e.O(0,[120,244,744],function(){return e(e.s=386)}),_N_E=e.O()}]);
