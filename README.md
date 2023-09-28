@@ -2,7 +2,7 @@
 
 ---
 
-[![Build status](https://ci.appveyor.com/api/projects/status/p36w9ng7g4b2gh3o?svg=true)](https://ci.appveyor.com/project/Liaksej/ra-props-chat)
+[![Build status](https://ci.appveyor.com/api/projects/status/40psej1nscb0cqfm?svg=true)](https://ci.appveyor.com/project/Liaksej/ra-forms-hex2rgb)
 
 
 https://liaksej.github.io/ra-forms-hex2rgb/
